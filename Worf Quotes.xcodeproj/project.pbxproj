@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDC7D6E1BF3E07D00A23F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */; };
+		BBDC7D701BF3E07D00A23F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */; };
+		BBDC7D731BF3E07D00A23F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D711BF3E07D00A23F3D /* Main.storyboard */; };
+		BBDC7D751BF3E07D00A23F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D741BF3E07D00A23F3D /* Assets.xcassets */; };
+		BBDC7D781BF3E07D00A23F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D761BF3E07D00A23F3D /* LaunchScreen.storyboard */; };
+		BBDC7D831BF3E07D00A23F3D /* Worf_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D821BF3E07D00A23F3D /* Worf_QuotesTests.swift */; };
+		BBDC7D8E1BF3E07D00A23F3D /* Worf_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBDC7D7F1BF3E07D00A23F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDC7D621BF3E07D00A23F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDC7D691BF3E07D00A23F3D;
+			remoteInfo = "Worf Quotes";
+		};
+		BBDC7D8A1BF3E07D00A23F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDC7D621BF3E07D00A23F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDC7D691BF3E07D00A23F3D;
+			remoteInfo = "Worf Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worf Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBDC7D721BF3E07D00A23F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDC7D741BF3E07D00A23F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDC7D771BF3E07D00A23F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDC7D791BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC7D821BF3E07D00A23F3D /* Worf_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worf_QuotesTests.swift; sourceTree = "<group>"; };
+		BBDC7D841BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worf_QuotesUITests.swift; sourceTree = "<group>"; };
+		BBDC7D8F1BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDC7D671BF3E07D00A23F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D7B1BF3E07D00A23F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D861BF3E07D00A23F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDC7D611BF3E07D00A23F3D = {
+			isa = PBXGroup;
+			children = (
+				BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */,
+				BBDC7D811BF3E07D00A23F3D /* Worf QuotesTests */,
+				BBDC7D8C1BF3E07D00A23F3D /* Worf QuotesUITests */,
+				BBDC7D6B1BF3E07D00A23F3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDC7D6B1BF3E07D00A23F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */,
+				BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */,
+				BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */,
+				BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */,
+				BBDC7D711BF3E07D00A23F3D /* Main.storyboard */,
+				BBDC7D741BF3E07D00A23F3D /* Assets.xcassets */,
+				BBDC7D761BF3E07D00A23F3D /* LaunchScreen.storyboard */,
+				BBDC7D791BF3E07D00A23F3D /* Info.plist */,
+			);
+			path = "Worf Quotes";
+			sourceTree = "<group>";
+		};
+		BBDC7D811BF3E07D00A23F3D /* Worf QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC7D821BF3E07D00A23F3D /* Worf_QuotesTests.swift */,
+				BBDC7D841BF3E07D00A23F3D /* Info.plist */,
+			);
+			path = "Worf QuotesTests";
+			sourceTree = "<group>";
+		};
+		BBDC7D8C1BF3E07D00A23F3D /* Worf QuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */,
+				BBDC7D8F1BF3E07D00A23F3D /* Info.plist */,
+			);
+			path = "Worf QuotesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDC7D691BF3E07D00A23F3D /* Worf Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC7D921BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf Quotes" */;
+			buildPhases = (
+				BBDC7D661BF3E07D00A23F3D /* Sources */,
+				BBDC7D671BF3E07D00A23F3D /* Frameworks */,
+				BBDC7D681BF3E07D00A23F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Worf Quotes";
+			productName = "Worf Quotes";
+			productReference = BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBDC7D7D1BF3E07D00A23F3D /* Worf QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC7D951BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesTests" */;
+			buildPhases = (
+				BBDC7D7A1BF3E07D00A23F3D /* Sources */,
+				BBDC7D7B1BF3E07D00A23F3D /* Frameworks */,
+				BBDC7D7C1BF3E07D00A23F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDC7D801BF3E07D00A23F3D /* PBXTargetDependency */,
+			);
+			name = "Worf QuotesTests";
+			productName = "Worf QuotesTests";
+			productReference = BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBDC7D881BF3E07D00A23F3D /* Worf QuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC7D981BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesUITests" */;
+			buildPhases = (
+				BBDC7D851BF3E07D00A23F3D /* Sources */,
+				BBDC7D861BF3E07D00A23F3D /* Frameworks */,
+				BBDC7D871BF3E07D00A23F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDC7D8B1BF3E07D00A23F3D /* PBXTargetDependency */,
+			);
+			name = "Worf QuotesUITests";
+			productName = "Worf QuotesUITests";
+			productReference = BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDC7D621BF3E07D00A23F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Paul Greidanus";
+				TargetAttributes = {
+					BBDC7D691BF3E07D00A23F3D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Q8247K5JJ5;
+					};
+					BBDC7D7D1BF3E07D00A23F3D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Q8247K5JJ5;
+						TestTargetID = BBDC7D691BF3E07D00A23F3D;
+					};
+					BBDC7D881BF3E07D00A23F3D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Q8247K5JJ5;
+						TestTargetID = BBDC7D691BF3E07D00A23F3D;
+					};
+				};
+			};
+			buildConfigurationList = BBDC7D651BF3E07D00A23F3D /* Build configuration list for PBXProject "Worf Quotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDC7D611BF3E07D00A23F3D;
+			productRefGroup = BBDC7D6B1BF3E07D00A23F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDC7D691BF3E07D00A23F3D /* Worf Quotes */,
+				BBDC7D7D1BF3E07D00A23F3D /* Worf QuotesTests */,
+				BBDC7D881BF3E07D00A23F3D /* Worf QuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDC7D681BF3E07D00A23F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC7D781BF3E07D00A23F3D /* LaunchScreen.storyboard in Resources */,
+				BBDC7D751BF3E07D00A23F3D /* Assets.xcassets in Resources */,
+				BBDC7D731BF3E07D00A23F3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D7C1BF3E07D00A23F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D871BF3E07D00A23F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDC7D661BF3E07D00A23F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC7D701BF3E07D00A23F3D /* ViewController.swift in Sources */,
+				BBDC7D6E1BF3E07D00A23F3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D7A1BF3E07D00A23F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC7D831BF3E07D00A23F3D /* Worf_QuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC7D851BF3E07D00A23F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC7D8E1BF3E07D00A23F3D /* Worf_QuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBDC7D801BF3E07D00A23F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDC7D691BF3E07D00A23F3D /* Worf Quotes */;
+			targetProxy = BBDC7D7F1BF3E07D00A23F3D /* PBXContainerItemProxy */;
+		};
+		BBDC7D8B1BF3E07D00A23F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDC7D691BF3E07D00A23F3D /* Worf Quotes */;
+			targetProxy = BBDC7D8A1BF3E07D00A23F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBDC7D711BF3E07D00A23F3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDC7D721BF3E07D00A23F3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDC7D761BF3E07D00A23F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDC7D771BF3E07D00A23F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDC7D901BF3E07D00A23F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBDC7D911BF3E07D00A23F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDC7D931BF3E07D00A23F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Worf Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBDC7D941BF3E07D00A23F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Worf Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBDC7D961BF3E07D00A23F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Worf QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Worf Quotes.app/Worf Quotes";
+			};
+			name = Debug;
+		};
+		BBDC7D971BF3E07D00A23F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Worf QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Worf Quotes.app/Worf Quotes";
+			};
+			name = Release;
+		};
+		BBDC7D991BF3E07D00A23F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Worf QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Worf Quotes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBDC7D9A1BF3E07D00A23F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Worf QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Majestik.Worf-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Worf Quotes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDC7D651BF3E07D00A23F3D /* Build configuration list for PBXProject "Worf Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC7D901BF3E07D00A23F3D /* Debug */,
+				BBDC7D911BF3E07D00A23F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDC7D921BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC7D931BF3E07D00A23F3D /* Debug */,
+				BBDC7D941BF3E07D00A23F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDC7D951BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC7D961BF3E07D00A23F3D /* Debug */,
+				BBDC7D971BF3E07D00A23F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDC7D981BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC7D991BF3E07D00A23F3D /* Debug */,
+				BBDC7D9A1BF3E07D00A23F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDC7D621BF3E07D00A23F3D /* Project object */;
+}
