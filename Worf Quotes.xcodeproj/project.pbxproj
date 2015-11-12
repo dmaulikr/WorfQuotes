@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB654FA11BF3F95600E474B0 /* smirk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F951BF3F95600E474B0 /* smirk.mp3 */; };
+		BB654FA21BF3F95600E474B0 /* killstand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F961BF3F95600E474B0 /* killstand.mp3 */; };
+		BB654FA31BF3F95600E474B0 /* eating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F971BF3F95600E474B0 /* eating.mp3 */; };
+		BB654FA41BF3F95600E474B0 /* walk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F981BF3F95600E474B0 /* walk.mp3 */; };
+		BB654FA51BF3F95600E474B0 /* notconcern.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F991BF3F95600E474B0 /* notconcern.mp3 */; };
+		BB654FA61BF3F95600E474B0 /* thinking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9A1BF3F95600E474B0 /* thinking.mp3 */; };
+		BB654FA71BF3F95600E474B0 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9B1BF3F95600E474B0 /* winning.mp3 */; };
+		BB654FA81BF3F95600E474B0 /* warriordrink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9C1BF3F95600E474B0 /* warriordrink.mp3 */; };
+		BB654FA91BF3F95600E474B0 /* merryman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9D1BF3F95600E474B0 /* merryman.mp3 */; };
+		BB654FAA1BF3F95600E474B0 /* dialated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9E1BF3F95600E474B0 /* dialated.mp3 */; };
+		BB654FAB1BF3F95600E474B0 /* women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654F9F1BF3F95600E474B0 /* women.mp3 */; };
+		BB654FAC1BF3F95600E474B0 /* tea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654FA01BF3F95600E474B0 /* tea.mp3 */; };
+		BB654FB01BF4013300E474B0 /* lcars_grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB654FAD1BF4013300E474B0 /* lcars_grey.jpg */; };
+		BB654FB11BF4013300E474B0 /* lcars_pink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB654FAE1BF4013300E474B0 /* lcars_pink.jpg */; };
+		BB654FB21BF4013300E474B0 /* lcars_red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB654FAF1BF4013300E474B0 /* lcars_red.jpg */; };
+		BB654FB51BF4028100E474B0 /* joke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB654FB41BF4028100E474B0 /* joke.mp3 */; };
 		BBDC7D6E1BF3E07D00A23F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */; };
 		BBDC7D701BF3E07D00A23F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */; };
 		BBDC7D731BF3E07D00A23F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D711BF3E07D00A23F3D /* Main.storyboard */; };
@@ -14,6 +30,9 @@
 		BBDC7D781BF3E07D00A23F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D761BF3E07D00A23F3D /* LaunchScreen.storyboard */; };
 		BBDC7D831BF3E07D00A23F3D /* Worf_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D821BF3E07D00A23F3D /* Worf_QuotesTests.swift */; };
 		BBDC7D8E1BF3E07D00A23F3D /* Worf_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */; };
+		BBDC7D9E1BF3E4D200A23F3D /* lcars_purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D9C1BF3E4D200A23F3D /* lcars_purple.jpg */; };
+		BBDC7D9F1BF3E4D200A23F3D /* lcars_orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7D9D1BF3E4D200A23F3D /* lcars_orange.jpg */; };
+		BBDC7DA81BF3EFC700A23F3D /* LCARS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBDC7DA71BF3EFC700A23F3D /* LCARS.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB654F951BF3F95600E474B0 /* smirk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smirk.mp3; sourceTree = "<group>"; };
+		BB654F961BF3F95600E474B0 /* killstand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killstand.mp3; sourceTree = "<group>"; };
+		BB654F971BF3F95600E474B0 /* eating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eating.mp3; sourceTree = "<group>"; };
+		BB654F981BF3F95600E474B0 /* walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = walk.mp3; sourceTree = "<group>"; };
+		BB654F991BF3F95600E474B0 /* notconcern.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notconcern.mp3; sourceTree = "<group>"; };
+		BB654F9A1BF3F95600E474B0 /* thinking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thinking.mp3; sourceTree = "<group>"; };
+		BB654F9B1BF3F95600E474B0 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		BB654F9C1BF3F95600E474B0 /* warriordrink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warriordrink.mp3; sourceTree = "<group>"; };
+		BB654F9D1BF3F95600E474B0 /* merryman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = merryman.mp3; sourceTree = "<group>"; };
+		BB654F9E1BF3F95600E474B0 /* dialated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dialated.mp3; sourceTree = "<group>"; };
+		BB654F9F1BF3F95600E474B0 /* women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = women.mp3; sourceTree = "<group>"; };
+		BB654FA01BF3F95600E474B0 /* tea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tea.mp3; sourceTree = "<group>"; };
+		BB654FAD1BF4013300E474B0 /* lcars_grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcars_grey.jpg; sourceTree = "<group>"; };
+		BB654FAE1BF4013300E474B0 /* lcars_pink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcars_pink.jpg; sourceTree = "<group>"; };
+		BB654FAF1BF4013300E474B0 /* lcars_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcars_red.jpg; sourceTree = "<group>"; };
+		BB654FB41BF4028100E474B0 /* joke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = joke.mp3; sourceTree = "<group>"; };
 		BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worf Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,9 @@
 		BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worf_QuotesUITests.swift; sourceTree = "<group>"; };
 		BBDC7D8F1BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDC7D9C1BF3E4D200A23F3D /* lcars_purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lcars_purple.jpg; path = "Worf Quotes/lcars_purple.jpg"; sourceTree = SOURCE_ROOT; };
+		BBDC7D9D1BF3E4D200A23F3D /* lcars_orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lcars_orange.jpg; path = ../../../../Desktop/lcars_orange.jpg; sourceTree = "<group>"; };
+		BBDC7DA71BF3EFC700A23F3D /* LCARS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LCARS.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +115,7 @@
 		BBDC7D611BF3E07D00A23F3D = {
 			isa = PBXGroup;
 			children = (
+				BBDC7DA71BF3EFC700A23F3D /* LCARS.ttf */,
 				BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */,
 				BBDC7D811BF3E07D00A23F3D /* Worf QuotesTests */,
 				BBDC7D8C1BF3E07D00A23F3D /* Worf QuotesUITests */,
@@ -97,6 +136,8 @@
 		BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				BBDC7DA01BF3E4D900A23F3D /* sound */,
+				BBDC7D9B1BF3E4B600A23F3D /* lcars_icon */,
 				BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */,
 				BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */,
 				BBDC7D711BF3E07D00A23F3D /* Main.storyboard */,
@@ -123,6 +164,38 @@
 				BBDC7D8F1BF3E07D00A23F3D /* Info.plist */,
 			);
 			path = "Worf QuotesUITests";
+			sourceTree = "<group>";
+		};
+		BBDC7D9B1BF3E4B600A23F3D /* lcars_icon */ = {
+			isa = PBXGroup;
+			children = (
+				BB654FAD1BF4013300E474B0 /* lcars_grey.jpg */,
+				BB654FAE1BF4013300E474B0 /* lcars_pink.jpg */,
+				BB654FAF1BF4013300E474B0 /* lcars_red.jpg */,
+				BBDC7D9C1BF3E4D200A23F3D /* lcars_purple.jpg */,
+				BBDC7D9D1BF3E4D200A23F3D /* lcars_orange.jpg */,
+			);
+			name = lcars_icon;
+			sourceTree = "<group>";
+		};
+		BBDC7DA01BF3E4D900A23F3D /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				BB654FB41BF4028100E474B0 /* joke.mp3 */,
+				BB654F951BF3F95600E474B0 /* smirk.mp3 */,
+				BB654F961BF3F95600E474B0 /* killstand.mp3 */,
+				BB654F971BF3F95600E474B0 /* eating.mp3 */,
+				BB654F981BF3F95600E474B0 /* walk.mp3 */,
+				BB654F991BF3F95600E474B0 /* notconcern.mp3 */,
+				BB654F9A1BF3F95600E474B0 /* thinking.mp3 */,
+				BB654F9B1BF3F95600E474B0 /* winning.mp3 */,
+				BB654F9C1BF3F95600E474B0 /* warriordrink.mp3 */,
+				BB654F9D1BF3F95600E474B0 /* merryman.mp3 */,
+				BB654F9E1BF3F95600E474B0 /* dialated.mp3 */,
+				BB654F9F1BF3F95600E474B0 /* women.mp3 */,
+				BB654FA01BF3F95600E474B0 /* tea.mp3 */,
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +306,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBDC7D781BF3E07D00A23F3D /* LaunchScreen.storyboard in Resources */,
+				BB654FB51BF4028100E474B0 /* joke.mp3 in Resources */,
+				BB654FA61BF3F95600E474B0 /* thinking.mp3 in Resources */,
+				BB654FA51BF3F95600E474B0 /* notconcern.mp3 in Resources */,
 				BBDC7D751BF3E07D00A23F3D /* Assets.xcassets in Resources */,
+				BB654FB11BF4013300E474B0 /* lcars_pink.jpg in Resources */,
+				BB654FAA1BF3F95600E474B0 /* dialated.mp3 in Resources */,
+				BB654FA91BF3F95600E474B0 /* merryman.mp3 in Resources */,
+				BB654FA81BF3F95600E474B0 /* warriordrink.mp3 in Resources */,
+				BB654FA21BF3F95600E474B0 /* killstand.mp3 in Resources */,
+				BB654FA41BF3F95600E474B0 /* walk.mp3 in Resources */,
 				BBDC7D731BF3E07D00A23F3D /* Main.storyboard in Resources */,
+				BB654FAC1BF3F95600E474B0 /* tea.mp3 in Resources */,
+				BB654FB01BF4013300E474B0 /* lcars_grey.jpg in Resources */,
+				BBDC7D9E1BF3E4D200A23F3D /* lcars_purple.jpg in Resources */,
+				BB654FB21BF4013300E474B0 /* lcars_red.jpg in Resources */,
+				BB654FA11BF3F95600E474B0 /* smirk.mp3 in Resources */,
+				BB654FAB1BF3F95600E474B0 /* women.mp3 in Resources */,
+				BBDC7DA81BF3EFC700A23F3D /* LCARS.ttf in Resources */,
+				BB654FA31BF3F95600E474B0 /* eating.mp3 in Resources */,
+				BBDC7D9F1BF3E4D200A23F3D /* lcars_orange.jpg in Resources */,
+				BB654FA71BF3F95600E474B0 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +579,7 @@
 				BBDC7D941BF3E07D00A23F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDC7D951BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +588,7 @@
 				BBDC7D971BF3E07D00A23F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDC7D981BF3E07D00A23F3D /* Build configuration list for PBXNativeTarget "Worf QuotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +597,7 @@
 				BBDC7D9A1BF3E07D00A23F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

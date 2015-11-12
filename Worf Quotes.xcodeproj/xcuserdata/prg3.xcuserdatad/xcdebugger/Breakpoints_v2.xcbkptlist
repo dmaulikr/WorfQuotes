@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Worf Quotes/ViewController.swift"
+            timestampString = "468980583.506529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worf_Quotes.ViewController.rectangleAdView.getter : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
+                  moduleName = "Worf Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prg3/Google%20Drive/Xcode%20Projects/Worf%20Quotes/Worf%20Quotes/ViewController.swift"
+                  timestampString = "468978390.339129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worf_Quotes.ViewController.rectangleAdView.setter : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
+                  moduleName = "Worf Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prg3/Google%20Drive/Xcode%20Projects/Worf%20Quotes/Worf%20Quotes/ViewController.swift"
+                  timestampString = "468978390.34841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worf_Quotes.ViewController.rectangleAdView.materializeForSet : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
+                  moduleName = "Worf Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prg3/Google%20Drive/Xcode%20Projects/Worf%20Quotes/Worf%20Quotes/ViewController.swift"
+                  timestampString = "468978390.348603"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worf_Quotes.ViewController.init (Worf_Quotes.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Worf_Quotes.ViewController"
+                  moduleName = "Worf Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prg3/Google%20Drive/Xcode%20Projects/Worf%20Quotes/Worf%20Quotes/ViewController.swift"
+                  timestampString = "468978390.348786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Worf_Quotes.ViewController.init (Worf_Quotes.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Worf_Quotes.ViewController&gt;"
+                  moduleName = "Worf Quotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prg3/Google%20Drive/Xcode%20Projects/Worf%20Quotes/Worf%20Quotes/ViewController.swift"
+                  timestampString = "468978390.349084"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

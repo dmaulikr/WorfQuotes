@@ -1,25 +1,224 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C31f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="LCARS.ttf">
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+            <string>Swiss911BT-UltraCompressed</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Worf_Quotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KIx-K5-MIR">
+                                <rect key="frame" x="36" y="380" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Women" backgroundImage="lcars_grey.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndWomen:" destination="BYZ-38-t0r" eventType="touchDown" id="6ij-AP-MtK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AxR-vF-HdU">
+                                <rect key="frame" x="36" y="90" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Joke" backgroundImage="lcars_orange.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndJoke:" destination="BYZ-38-t0r" eventType="touchDown" id="P3u-zs-KWf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mrl-HS-zT8">
+                                <rect key="frame" x="173" y="90" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="24"/>
+                                <state key="normal" title="Not your concern" backgroundImage="lcars_pink.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndConcern:" destination="BYZ-38-t0r" eventType="touchDown" id="rmo-zT-j7j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zcz-Ie-YgN">
+                                <rect key="frame" x="36" y="148" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Smirk" backgroundImage="lcars_red.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndSmirk:" destination="BYZ-38-t0r" eventType="touchDown" id="IUe-eD-7pJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Csh-FK-4Ab">
+                                <rect key="frame" x="36" y="206" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Kill - Stand" backgroundImage="lcars_orange.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndKill:" destination="BYZ-38-t0r" eventType="touchDown" id="5gi-6X-vfy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pel-C5-TX3">
+                                <rect key="frame" x="173" y="206" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Winning" backgroundImage="lcars_purple.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndWinning:" destination="BYZ-38-t0r" eventType="touchDown" id="h38-Qw-WfE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jdD-yf-aQV">
+                                <rect key="frame" x="36" y="264" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Eating" backgroundImage="lcars_purple.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndEating:" destination="BYZ-38-t0r" eventType="touchDown" id="ZYd-w3-Ppd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TaL-jp-ozy">
+                                <rect key="frame" x="173" y="264" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Warrior Drink" backgroundImage="lcars_grey.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndWarrior:" destination="BYZ-38-t0r" eventType="touchDown" id="Rvp-1O-8ta"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SxG-KI-Odn">
+                                <rect key="frame" x="173" y="148" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Thinking" backgroundImage="lcars_purple.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndThinking:" destination="BYZ-38-t0r" eventType="touchDown" id="HMo-dh-Fmx"/>
+                                </connections>
+                            </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fO1-eZ-Ed1">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </adBannerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yag-cu-gJB">
+                                <rect key="frame" x="173" y="322" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Merry Man" backgroundImage="lcars_orange.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndMerry:" destination="BYZ-38-t0r" eventType="touchDown" id="2Nc-hE-5Qr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="igJ-6d-tbd">
+                                <rect key="frame" x="36" y="322" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Walk" backgroundImage="lcars_orange.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndWalk:" destination="BYZ-38-t0r" eventType="touchDown" id="qak-H1-AlL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bVA-OS-iOq">
+                                <rect key="frame" x="100" y="434" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Dialated" backgroundImage="lcars_grey.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndDialated:" destination="BYZ-38-t0r" eventType="touchDown" id="3RV-3f-UH5"/>
+                                    <action selector="sndWalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZM8-nO-8WK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X3b-NO-pVM">
+                                <rect key="frame" x="173" y="380" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="30"/>
+                                <state key="normal" title="Tea - House" backgroundImage="lcars_purple.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sndTea:" destination="BYZ-38-t0r" eventType="touchDown" id="lHN-26-FNV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quotes from Lt Cmdr Worf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eoo-du-5jD">
+                                <rect key="frame" x="20" y="12" width="280" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Swiss911BT-UltraCompressed" family="Swiss911 UCm BT" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="158" y="287"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lcars_grey.jpg" width="300" height="99"/>
+        <image name="lcars_orange.jpg" width="300" height="100"/>
+        <image name="lcars_pink.jpg" width="300" height="100"/>
+        <image name="lcars_purple.jpg" width="300" height="100"/>
+        <image name="lcars_red.jpg" width="300" height="100"/>
+    </resources>
 </document>
