@@ -56,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1CF7EA1C0026090024CE35 /* Worf Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worf Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1CF7EB1C0026090024CE35 /* Worf QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1CF7EC1C0026090024CE35 /* Worf QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB654F951BF3F95600E474B0 /* smirk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smirk.mp3; sourceTree = "<group>"; };
 		BB654F961BF3F95600E474B0 /* killstand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killstand.mp3; sourceTree = "<group>"; };
 		BB654F971BF3F95600E474B0 /* eating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eating.mp3; sourceTree = "<group>"; };
@@ -72,17 +75,14 @@
 		BB654FAE1BF4013300E474B0 /* lcars_pink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcars_pink.jpg; sourceTree = "<group>"; };
 		BB654FAF1BF4013300E474B0 /* lcars_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lcars_red.jpg; sourceTree = "<group>"; };
 		BB654FB41BF4028100E474B0 /* joke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = joke.mp3; sourceTree = "<group>"; };
-		BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worf Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7D6D1BF3E07D00A23F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBDC7D6F1BF3E07D00A23F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBDC7D721BF3E07D00A23F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBDC7D741BF3E07D00A23F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBDC7D771BF3E07D00A23F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBDC7D791BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7D821BF3E07D00A23F3D /* Worf_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worf_QuotesTests.swift; sourceTree = "<group>"; };
 		BBDC7D841BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Worf QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7D8D1BF3E07D00A23F3D /* Worf_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worf_QuotesUITests.swift; sourceTree = "<group>"; };
 		BBDC7D8F1BF3E07D00A23F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDC7D9C1BF3E4D200A23F3D /* lcars_purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lcars_purple.jpg; path = "Worf Quotes/lcars_purple.jpg"; sourceTree = SOURCE_ROOT; };
@@ -125,18 +125,10 @@
 				BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */,
 				BBDC7D811BF3E07D00A23F3D /* Worf QuotesTests */,
 				BBDC7D8C1BF3E07D00A23F3D /* Worf QuotesUITests */,
-				BBDC7D6B1BF3E07D00A23F3D /* Products */,
+				BB1CF7EA1C0026090024CE35 /* Worf Quotes.app */,
+				BB1CF7EB1C0026090024CE35 /* Worf QuotesTests.xctest */,
+				BB1CF7EC1C0026090024CE35 /* Worf QuotesUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		BBDC7D6B1BF3E07D00A23F3D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */,
-				BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */,
-				BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BBDC7D6C1BF3E07D00A23F3D /* Worf Quotes */ = {
@@ -224,7 +216,7 @@
 			);
 			name = "Worf Quotes";
 			productName = "Worf Quotes";
-			productReference = BBDC7D6A1BF3E07D00A23F3D /* Worf Quotes.app */;
+			productReference = BB1CF7EA1C0026090024CE35 /* Worf Quotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BBDC7D7D1BF3E07D00A23F3D /* Worf QuotesTests */ = {
@@ -242,7 +234,7 @@
 			);
 			name = "Worf QuotesTests";
 			productName = "Worf QuotesTests";
-			productReference = BBDC7D7E1BF3E07D00A23F3D /* Worf QuotesTests.xctest */;
+			productReference = BB1CF7EB1C0026090024CE35 /* Worf QuotesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BBDC7D881BF3E07D00A23F3D /* Worf QuotesUITests */ = {
@@ -260,7 +252,7 @@
 			);
 			name = "Worf QuotesUITests";
 			productName = "Worf QuotesUITests";
-			productReference = BBDC7D891BF3E07D00A23F3D /* Worf QuotesUITests.xctest */;
+			productReference = BB1CF7EC1C0026090024CE35 /* Worf QuotesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -271,11 +263,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Paul Greidanus";
+				ORGANIZATIONNAME = "Majestik Solutions";
 				TargetAttributes = {
 					BBDC7D691BF3E07D00A23F3D = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = Q8247K5JJ5;
+						DevelopmentTeam = 72T4TN8262;
 					};
 					BBDC7D7D1BF3E07D00A23F3D = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -298,7 +290,7 @@
 				Base,
 			);
 			mainGroup = BBDC7D611BF3E07D00A23F3D;
-			productRefGroup = BBDC7D6B1BF3E07D00A23F3D /* Products */;
+			productRefGroup = BBDC7D611BF3E07D00A23F3D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -507,10 +499,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Worf Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.majestik.worf2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.majestik.garbage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -519,10 +513,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Worf Quotes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.majestik.worf2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.majestik.garbage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
