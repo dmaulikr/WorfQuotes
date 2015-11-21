@@ -12,6 +12,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     // No Rotation
+    /*
     override func shouldAutorotate() -> Bool {
         if (UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeLeft ||
             UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeRight ||
@@ -22,13 +23,15 @@ class ViewController: UIViewController {
             return true
         }
     }
-    
+    */
+
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         return [UIInterfaceOrientationMask.Portrait ,UIInterfaceOrientationMask.PortraitUpsideDown]
     }
 
+    @IBOutlet weak var nameTextField: UIButton!
     
-    // Advertising Goop
+// Advertising Goop
     var rectangleAdView: ADBannerView?
     
     func bannerViewDidLoadAd(banner: ADBannerView!) {
@@ -79,6 +82,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Text Field
+        //nameTextField.setTitle(<#T##title: String?##String?#>, forState: <#T##UIControlState#>)
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.blackColor()
         // Allow Banner Ads

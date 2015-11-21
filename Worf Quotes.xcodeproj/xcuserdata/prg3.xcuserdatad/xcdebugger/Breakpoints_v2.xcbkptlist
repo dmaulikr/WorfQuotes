@@ -6,20 +6,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Worf Quotes/ViewController.swift"
-            timestampString = "468980583.506529"
+            timestampString = "469494135.943109"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Worf_Quotes.ViewController.rectangleAdView.getter : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
@@ -34,7 +34,7 @@
                   offsetFromSymbolStart = "24">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Worf_Quotes.ViewController.rectangleAdView.setter : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
@@ -49,7 +49,7 @@
                   offsetFromSymbolStart = "20">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Worf_Quotes.ViewController.rectangleAdView.materializeForSet : Swift.Optional&lt;__ObjC.ADBannerView&gt;"
@@ -64,7 +64,7 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Worf_Quotes.ViewController.init (Worf_Quotes.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Worf_Quotes.ViewController"
@@ -79,7 +79,7 @@
                   offsetFromSymbolStart = "192">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Worf_Quotes.ViewController.init (Worf_Quotes.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Worf_Quotes.ViewController&gt;"
